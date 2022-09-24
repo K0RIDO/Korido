@@ -3,3 +3,5 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/K0RIDO/KORIDO?label=Repository%20Size)
 # コリドー
 A text-based adventure game set in a school corridor.
+
+Still Work in Progress. Nothing is functional.
