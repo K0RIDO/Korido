@@ -14,7 +14,7 @@ public class Game {
     public Game(){
 
         window = new JFrame();
-        window.setTitle("コリドー");
+        window.setTitle("KORIDO");
         window.setSize(800,600);
         window.setResizable(false);
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
