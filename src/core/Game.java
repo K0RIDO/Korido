@@ -1,5 +1,7 @@
 package core;
 
+import inputs.SoundHandler;
+
 import javax.swing.*;
 import java.awt.*;
 
@@ -50,6 +52,8 @@ public class Game {
         window.add(startButtonPanel);
 
         window.setVisible(true);
+
+        SoundHandler.RunMusic("assets/menu.wav");
     }
 
     public static void main(String[] args) {
