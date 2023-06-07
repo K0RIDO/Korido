@@ -4,6 +4,8 @@ import javax.sound.sampled.*;
 import java.io.File;
 import java.io.IOException;
 
+import static javax.sound.sampled.Clip.LOOP_CONTINUOUSLY;
+
 public class SoundHandler {
 
     public static void RunMusic(String path) {
@@ -11,7 +13,7 @@ public class SoundHandler {
             AudioInputStream inputStream = AudioSystem.getAudioInputStream(new File(path));
             Clip clip = AudioSystem.getClip();
             clip.open(inputStream);
-            clip.loop(0);
+            clip.loop(LOOP_CONTINUOUSLY);
         } catch (UnsupportedAudioFileException e) {
             e.printStackTrace();
         } catch (IOException e){
